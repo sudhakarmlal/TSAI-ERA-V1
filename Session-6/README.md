@@ -3,7 +3,7 @@ Assignment 6 – ERA 1
 ==========================
 
 - Developer(s)
-     - Nihar Kanungo  (nihar.kanungo@gmail.com)
+     - Sudhakar Reddy  (sudhakardlal10@gmail.com)
 
 
 Requirement
