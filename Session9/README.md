@@ -1,4 +1,4 @@
-# CIFAR-10 Classification with Albumentations and Depthwise Separable Convolutions
+# CIFAR-10 Classification and Depthwise Separable Convolutions
 
 This repository provides code implementation for training a CIFAR-10 image classifier using Albumentations for Data augmentation and Depthwise separable convolutions in PyTorch.
 
