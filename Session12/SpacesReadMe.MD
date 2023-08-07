@@ -7,7 +7,7 @@ As well as example input images
 
 ![](image/SpacesImages/GRADIO1.JPG)
 
-![](image/SpacesImages/Gradio6.JPG)
+![](image/SpacesImages/Gradio5.JPG)
 
 
 #### Step2
@@ -24,9 +24,9 @@ Give values for  show gradcam images,which layer ,opacity,number of misclassifie
 #### Step3
 The output gradcam image and missclassified images would be shown
 
-![](image/SpacesImages/Gradio5.JPG)
 
 
+![](image/SpacesImages/Gradio6.JPG)
 
 ![](image/SpacesImages/Gradio7.JPG)
 
