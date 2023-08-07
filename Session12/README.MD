@@ -1,4 +1,4 @@
-# Assignment12Resnet and Testing
+# Assignment12Resnet 
 
 The `Assignment12Resnet` class is a PyTorch Lightning module that serves as the core component for training and evaluating the custom ResNet model on the CIFAR-10 dataset. It inherits from `LightningModule`, which is a base class provided by PyTorch Lightning to streamline the training process.
 
@@ -44,11 +44,7 @@ After defining the `Assignment12Resnet` class, the notebook proceeds with testin
 2. The model is trained using the `Trainer` class from PyTorch Lightave calculated the receptive field based on the custom network and decided to select layer2 as it has 6*6 as output size.
 need to attach the image.
 
-#Difficulties faced
-1. Calculated the receptive field for custom model and obseved the output channel size to be 6*6.so decided to put at end of layer2. the snapshot for is 
-![](image/rf_calculations.jpeg)
 
-![](image/rf_channel_formula.jpeg)
 
 2. As the layer2 components are not iterable for my custom restnet implementaion and so indexing them became a problem has to rewrite the code using nn.Sequential
 and add those components. and prepared a model_dict dictionary to get the components of layer2.
