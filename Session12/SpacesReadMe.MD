@@ -12,13 +12,17 @@ As well as example input images
 
 #### Step2
 
+Upload one input image
 
-![](image/SpacesImages/Gradio2.gif)
+Give values for  show gradcam images,which layer ,opacity,number of misclassified images and no of top classes
 
 
 ![](image/SpacesImages/Gradio3.JPG)
 
 ![](image/SpacesImages/Gradio4.JPG)
+
+#### Step3
+The output gradcam image and missclassified images would be shown
 
 ![](image/SpacesImages/Gradio5.JPG)
 
