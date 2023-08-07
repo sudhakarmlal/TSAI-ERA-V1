@@ -1,1 +1,1 @@
-![](images/simple_perceptron_model.png)
+![](image/SpacesImages/GRADIO1.JPG)
