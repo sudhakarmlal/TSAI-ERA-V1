@@ -2,8 +2,7 @@
 
 The `Assignment12Resnet` class is a PyTorch Lightning module that serves as the core component for training and evaluating the custom ResNet model on the CIFAR-10 dataset. It inherits from `LightningModule`, which is a base class provided by PyTorch Lightning to streamline the training process.
 
-## Assignment12Resnet Class
-
+## Pytorch lightning Resnet class
 ### Constructor
 
 The constructor of `Assignment12Resnet` takes two parameters: `lr` and `data_dir`. The `lr` parameter is used to set the learning rate for the optimizer, and `data_dir` is the path to the directory where the CIFAR-10 dataset will be stored. It also initializes some dataset-specific attributes such as `num_classes`, `train_transform`, and `test_transform`, which define the data transformations for training and testing.
