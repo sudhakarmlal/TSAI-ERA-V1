@@ -1,0 +1,13 @@
+torch
+torchvision
+grad-cam
+opencv-python
+albumentations
+pytorch_lightning
+torch-lr-finder
+pillow
+numpy
+pytorch-gradcam
+gradio
+seaborn
+
