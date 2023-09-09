@@ -1,7 +1,6 @@
-# ERA_Speeding_up_Transformers_16
-# Speeding up Transformers
+# Transformers how to speed up.
 
-This project focuses on optimizing Transformers for machine translation by making both model and dataset changes to reduce computation time and improve efficiency.
+This core focus of this project is on optimizing Transformers for machine translation by making both model and dataset changes to reduce computation time and improve efficiency.
 
 ## Model Changes
 
@@ -27,7 +26,7 @@ We filter source sentences with a length of less than 150 characters to streamli
 
 To further optimize the dataset, we filter destination sentences based on the length of the corresponding source sentences.
 
-### c) Custom Collate Function
+### c) Collate Function(Custom)
 
 To efficiently batch and preprocess data for training, we've implemented a custom collate function named `collate_b`. This function is designed to work seamlessly with PyTorch's DataLoader. Below is a breakdown of its functionality:
 
@@ -81,8 +80,7 @@ python main.py
 ##  License
 I have used Apache 2.0 for this task. 
 
-## Acknowledgments
-I would  like to acknowledge Rohan Shravan and students of the school of AI for their valuable guidance.
+
 
 
 
